@@ -262,64 +262,6 @@
                 </div>
             </section>
 
-                    <section id="contact" class="paddingTop" tabindex="-1" style="outline: none;">
-                        <h1 class="content__heading paddingTop">Get in Touch</h1>
-                        <hr>
-
-                        <form class="contactForm js-contactForm" id="ajaxForm" action="https://formcarry.com/s/G-4SQ70qhCMS" method="POST" accept-charset="UTF-8">
-
-
-                            ...
-
-                            <div class="inputFields">
-
-                                <input type="text" placeholder="Name" id="name" class="contactForm__input input" name="name" autocomplete="name" required="">
-
-                                <input type="email" placeholder="Email" id="email" class="contactForm__input input" name="email" autocomplete="email" required="">
-
-                            </div>
-                            <input type="text" placeholder="Subject" name="subject" class="contactForm__input subject" required="">
-
-                            <textarea name="message" id="message" class="contactForm__input textBox" cols="30" rows="10" placeholder="Message" required=""></textarea>
-
-                            <div id="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-yaqzhwjpzgq9" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcS4uoUAAAAALmgIfa1VjpO-SpYs1WOEPntFNRA&amp;co=aHR0cDovL2xvY2FsaG9zdDo1Mzg5OQ..&amp;hl=en&amp;v=KXX4ARWFlYTftefkdODAYWZh&amp;theme=light&amp;size=normal&amp;cb=z67zm5v8489j"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-                            <br>
-
-                            <input type="submit" name="submit" value="Send Message" class="contactForm__submit">
-
-                        </form>
-
-
-                        <script src="https://carrier.formcarry.com/js/v1.js"></script>
-                        <script>
-                            formcarry({
-                                form: "G-4SQ70qhCMS",
-                                // id or the class name of the form element, only form element allowed
-                                // works with css selectors
-                                // # <= for id
-                                // . <= for class
-                                element: "#my-formcarry",
-                                extraData: {
-                                    // add whatever you want
-                                    screenSize: `${window.screen.width}x${window.screen.height}`,
-                                    language: window.navigator.language,
-                                },
-                                // Success callback, you can show alert messages
-                                // or redirect the user in this function
-                                onSuccess: function (response) {
-                                    alert(response)
-                                },
-                                // Error callback, a good place to show errors 🗿
-                                onError: function (error) {
-                                    alert(error)
-                                }
-                            });
-                        </script>
-
-                        <div id="submitSuccess" class="successBox">
-                            <p class="successMsg" id="successMsg">Message Sent!</p>
-                        </div>
-                    </section>
 
     <!-- 
         footer
